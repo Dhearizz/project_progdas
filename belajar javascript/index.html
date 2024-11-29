@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Sederhana</title>
+    </head>
+    <body>
+    <h1 id="hasil"></h1>
+    <script>
+    var operator = prompt("Masukkan operator:\n1. Pertambahan\n2. Pengurangan\n3. Perkalian\n4.Pembagian");
+    var angkaPertama = parseInt(prompt("Masukkan angka pertama"));
+    var angkaKedua = parseInt(prompt("Masukkan angka kedua"));
+
+    if (angkaPertama !== null && angkaKedua !== null) {
+    switch (operator) {
+        case "1":
+        hasil = angkaPertama + angkaKedua;
+        break;
+        case "2":
+        hasil = angkaPertama - angkaKedua;
+        break;
+        case "3":
+        hasil = angkaPertama * angkaKedua;
+        break;
+        case "4":
+        if (angkaKedua !== 0) {
+        hasil = angkaPertama / angkaKedua;
+        } else {
+        hasil = "Error: Pembagian dengan nol";
+        }
+        break;
+        default:
+        hasil = "Error: Operator tidak valid";
+    }
+
+        document.getElementById("hasil").innerHTML = "Hasil: " + hasil;
+    }
+    </script>
+    </body>

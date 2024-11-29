@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register dulu</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container-register1">
+        <form id="biodataForm" method="post">
+        <h2 align="center">Register</h2>
+        <form action="POST">
+
+            <label for="name"><b>Username</b></label>
+        <input 
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Masukkan Nama Lengkap"
+        required
+        />
+
+        <label for="email"><b>Email</b></label>
+        <input 
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Masukkan Email"
+        required
+        />
+
+        <label for="alamat"><b>Alamat</b></label>
+        <input 
+        type="text" 
+        name="alamat" 
+        id="alamat"
+        placeholder="Masukkan Alamat"
+        required
+        />
+
+        <label for="sekolah"><b>Sekolah</b></label>
+        <input 
+        type="text" 
+        name="sekolah" 
+        id="sekolah"
+        placeholder="Masukkan Sekolah"
+        value="SMK TARUNA BHAKTI" disabled
+        required
+        />  
+           
+        <label for="password"><b>Password</b></label>
+            <input 
+            type="password" 
+            name="password"
+              id="password"
+            placeholder="Masukkan password"
+            required
+            />
+
+            <label for="repassword"><b>Re-Password</b></label>
+            <input 
+            type="password" 
+            name="repassword" 
+             id="repassword" 
+            placeholder="Masukkan password lagi"
+            required
+            />
+
+            <button type="submit" onclick="alert"(berhasil)>Register</button>
+   
+            <p align="center">Sudah ada akun? click ini >> <a href="login.html">Login</a>
+   
+        </form>
+        <ul>
+            <li id="name-output"></li>
+            <li id="email-output"></li>
+            <li id="alamat-output"></li>
+            <li id="sekolah-output"></li>
+            <li id="password-output"></li>
+            <li id="repassword-output"></li>
+        </ul>
+
+
+    </div>
+    <script src ="function.js"></script>
+</body>
+</html>

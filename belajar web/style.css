@@ -1,0 +1,51 @@
+input[type="Username"],
+input[type="Nama pengguna"]
+input[type="email"],
+input[type="Password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.container-login{
+    /* display: flex;
+    position: relative; */
+    align-items: center;
+    padding: 16px;
+    width: 500px;
+}
+table {
+    border-collapse: collapse;
+}
+input[type="Usernama"],
+input[type="Nama pengguna"],
+input[type="email"],
+input[type="Password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+
+}
+button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}

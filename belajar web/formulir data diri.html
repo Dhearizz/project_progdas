@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata diri</title>
+    <link rel="stylesheet" href="biodata.css">
+</head>
+<body>>
+    <div class="container-register">
+    <form id="biodataForm" method="post">
+    <h2>Formulir biodata diri</h2>
+    
+    <label for="name">Nama lengkap</label>
+    <input type="text" name="alamat" id="name" placeholder="Masukan nama lengkap" required/>
+    
+    <label for="alamat">Alamat</label>
+    <input type="text" name="alamat" id="alamat" placeholder="Masukan Alamat" required />
+    
+    <label for="sekolah">Sekolah</label>
+    <input type="text" name="sekolah" id="sekolah" value="SMK TARUNA BHAKTI" disabled/>
+    
+    <label for="country">Negara</label>
+    <select name="country" id="country">
+    <option value="Indonesia">Indonesia</option>
+    <option value="Rusia">Rusia</option>
+    <option value="Jepang">Jepang</option>
+    </select>
+    
+    <div class="password">
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+    <button type="submit">Submit</button>
+            </form>
+        </div> 
+    
+    <div class="container-output">
+<ul>
+    <li id="name-output"></li>
+    <li id="alamat-output"></li>
+    <li id="sekolah-output"></li>
+    <li id="country-output"></li>
+</ul>
+    </div>
+    
+        <script src="funtion.js"></script>
+    </body>
+</html>
+      

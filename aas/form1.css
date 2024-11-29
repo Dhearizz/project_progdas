@@ -1,0 +1,79 @@
+body {
+  
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: rgb(250, 190, 233);
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+  form{
+    margin-bottom: 20px;
+    
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="url"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  button {
+    background-color:rgb(147, 158, 238);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  button:active {
+    transform: translateY(0);
+  }
+  
+  table,
+  th,
+  td {
+      border: 1px solid rgb(7, 7, 45);
+      border-collapse: collapse;
+      padding: 8px;
+      margin: 12px;
+  }
+  th,
+  td {
+      text-align: center;
+  }
+
+  .kategori-true {
+    background-color: aquamarine;
+  color: white;
+  }
+  
+  .kategori-false {
+    background-color: blueviolet;
+    color: white;
+  }

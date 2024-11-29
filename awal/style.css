@@ -1,0 +1,34 @@
+html, body{
+    height: "100%"
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url(taruna\ bhakti.jpg)
+}
+
+.photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 80px ;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+.table tt td {
+    padding: .25rem;
+}
+
+.table tt td:first-child {
+    font-weight: 700;
+}
+
+
